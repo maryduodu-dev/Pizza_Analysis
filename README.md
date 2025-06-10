@@ -49,6 +49,8 @@ Built using Power BI and Excel, the dashboard enables users to interact with key
 - Business Insight Generation  
 - Exploratory Data Analysis (EDA)
 
+![image](https://github.com/user-attachments/assets/951a8b25-5813-4fe6-846c-f21b631ac973)
+
 ## How to Use
 
 1. Clone this repository  
