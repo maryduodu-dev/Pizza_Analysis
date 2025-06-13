@@ -6,24 +6,29 @@ This dashboard project analyzes the sales performance of a pizza restaurant. It 
 
 Built using Power BI and Excel, the dashboard enables users to interact with key metrics and drill down into areas like top-performing products, daily and hourly sales trends, and sitting efficiency.
 
-## Dataset Summary
+## 📦 Dataset Overview – Pizza Sales Dashboard
 
-- Total Revenue: $817,900  
-- Estimated Customers: 31,000  
-- Average Order Value: $38.31  
-- Average Pizzas per Order: 2  
-- Seat Utilization Rate: 1.4%
+This project is powered by four interrelated CSV files that simulate the daily operations of a pizza restaurant. The dataset is organized as follows:
 
-**Top Performers**  
-- Best Day for Sales: Friday  
-- Peak Sales Time: 6 PM – 9 PM  
-- Best-Selling Product: Thai Chicken Pizza  
-- Most Popular Category: Classic Pizzas (30% of sales)
 
-**Underperforming Areas**  
-- Low Sales Day: Sunday  
-- Least Performing Product: Brie Caramelized Onion Pizza  
-- Seat Utilization: Low (mostly takeout/delivery)
+### Dataset Descriptions
+
+| File | Description |
+|------|-------------|
+| **orders.csv** | One row per order with `order_id`, `order_date`, and `time`. Used for daily, weekly, and hourly sales analysis. |
+| **order_details.csv** | Breaks down each order into individual pizzas. Contains `order_id`, `pizza_id`, `quantity`, `price`, and `line_total`. |
+| **pizzas.csv** | Links each `pizza_id` to its size and base price. Useful for size filtering and pricing calculations. |
+| **pizza_types.csv** | Descriptive information for each pizza including `name`, `category`, and `ingredients`. Enables category-level insights. |
+| **data_dictionary.csv** | A helper file defining all fields across the datasets. Useful for quick schema reference. |
+
+### Data Relationships
+
+
+orders.order_id         →  order_details.order_id
+
+order_details.pizza_id  →  pizzas.pizza_id
+
+pizzas.pizza_type_id    →  pizza_types.pizza_type_id 
 
 ## Key Visuals in the Dashboard
 
