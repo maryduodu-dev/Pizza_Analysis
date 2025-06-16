@@ -52,8 +52,7 @@ pizzas.pizza_type_id    →  pizza_types.pizza_type_id
 - Business Insight Generation  
 - Exploratory Data Analysis (EDA)
 
-![image](https://github.com/user-attachments/assets/bb649690-f070-4e9d-a2ef-76a87f408adf)
-
+![image](https://github.com/user-attachments/assets/4d3f5ad3-566a-409a-9f86-0b011112f45b)
 
 
 ## How to Use
