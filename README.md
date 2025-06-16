@@ -6,8 +6,6 @@ This dashboard project analyzes the sales performance of a pizza restaurant. It 
 
 Built using Power BI and Excel, the dashboard enables users to interact with key metrics and drill down into areas like top-performing products, daily and hourly sales trends, and sitting efficiency.
 
-## 📦 Dataset Overview – Pizza Sales Dashboard
-
 This project is powered by four interrelated CSV files that simulate the daily operations of a pizza restaurant. The dataset is organized as follows:
 
 
